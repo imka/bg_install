@@ -1,0 +1,13 @@
+<?php
+// $Id: l10n_install.install,v 1.1.2.1 2010/09/15 16:09:57 goba Exp $
+
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function bg_install_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+//  include_once DRUPAL_ROOT . '/profiles/bg_install/l10n_install.install';
+  standard_install();
+}

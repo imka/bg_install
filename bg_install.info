@@ -1,0 +1,37 @@
+; $Id: l10n_install.info,v 1.1.2.4 2011/01/06 23:25:36 goba Exp $
+name = Drupal for Buerger-gestalten.de
+description = Install a customized Drupal platfrom for hyper local activitz hubs.  
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = feeds
+dependencied[] = n
+dependencies[] = rules
+dependencies[] = rules_autotag
+dependencies[] = strongarm
+dependencied[] = synonyms
+
+; ships with locale modules
+dependencies[] = locale
+dependencies[] = l10n_update
+
+files[] = bg_install.profile
